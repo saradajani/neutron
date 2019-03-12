@@ -1,0 +1,142 @@
+body {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	color: #FFFFFF;
+	margin: 0;
+	background-color: #000000;
+	background-image: url("images/galaxy2.png");
+	font-family: "Courier New";
+}
+	
+
+p {
+	text-shadow: 2px 2px red;
+}
+.opaque {
+	opacity: 0.25;
+	background-color: red;
+}
+.hidethis{
+	display: none;
+	visibility: hidden;
+}
+.pink {
+	display:block;
+	height: 100%;
+	width: 100%;
+}
+.yellow {
+	display: flex;
+	height: 25%;
+	width: 100%;
+	/*
+	border-style: solid;
+	border-width: 5px;
+	border-color: yellow;
+	*/
+}
+
+.turqoise {
+	height: 100%;
+	width: 75%;
+	/*
+	border-style: solid;
+	border-width: 5px;
+	border-color: #40E0D0;
+	*/
+}
+
+.blue {
+	height: 100%;
+	width: 25%;
+	/*
+	border-style: solid;
+	border-width: 5px;
+	border-color: blue;
+	*/
+}
+
+.red {
+	height: 100%;
+	width: 50%;
+	/*
+	border-style: solid;
+	border-width: 5px;
+	border-color: red;
+	*/
+}
+.orangeone {
+	height: 50%;	
+	width: 100%;
+	/*
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+	*/
+}
+.orangetwo{
+	display: block;
+	height: 50%;
+	width: 100%;
+	/*
+	border-style: solid;
+	border-width: 5px;
+	border-color: orange;
+	*/
+}
+.orange {
+	display: flex;
+	height: 50%;
+	width: 100%;
+	/*
+	border-style: solid;
+	border-width: 5px;
+	border-color: orange;
+	*/
+}
+.green {
+	height:100%;
+	width: 25%;
+	/*
+	border-style: solid;
+	border-width: 5px;
+	border-color: green;
+	*/
+}
+
+.brown {
+	display:flex;
+	height: 75%;
+	width: 100%;
+	/*
+	border-style: solid;
+	border-width: 5px;
+	border-color: #8B4513;
+	*/
+}
+.time{
+	position: right;
+}
+.center-content{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+.restrict-image-size{
+	max-height:100%;
+	max-width:100%;
+}
+.img.resize {
+	width:200px;
+	max-height:100%;
+}
+.image {
+    margin:-60px 0 0 -60px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(-30deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(-30deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(-30deg); transform:rotate(-30deg); } }
