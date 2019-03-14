@@ -16,13 +16,15 @@
 				</div>
 				<div class="blue center-content time">
 						<div class="smalltext">
+							<!-- This is the id that the countdown function calls for ('demo')-->
 							<p style="font-size:30px"id="demo"></p>
 						</div>
 				</div>
 			</div>
 			<div class="brown center-content">
 				<div class="red center-content">
-					<img class="image  rotated" src="images/rocket..png" class="restrict-image-size" onclick="checkButton()" id="rocket"/>
+					<!--This image has a given id because it will change when the Java function calls on it. It also has the css class that allows it to rotate-->
+					<img class="image  rotated" src="images/rocket..png" class="restrict-image-size" id="rocket"/>
 				</div>
 				<div class="red">
 					<div class="orangetwo center-content">
@@ -37,9 +39,11 @@
 						<br>
 						<br>
 						<br>
+						<!--When the image is clicked it will take the users to the next escape room-->
 						<a href="https://sambiner.github.io/escaperoom/esc_rm.html">
 							<img src="images/lost.png" class="restrict-image-size hidethis" id="lost"/>
 						</a>
+						<!--When the image is clicked it will take the users to the next escape room-->
 						<a href="index2.html">
 							<img src="images/good.png" class="restrict-image-size hidethis" id="win"/>
 						</a>
@@ -52,26 +56,32 @@
 							<br>
 							<br>
 							<br>
+							<!--This button image will have an onclick attribute which checks if the code sequence is correct -->
 							<center><img src="images/button.png" class="restrict-img-size" onclick="checkButton()"/><center>
 						</div>
 					</div>
 					<div class="orange restrict-image-size">
 						<div class="green center-content">
+							<!--When this image is clicked it will shuffle through the series of numbers that the Java function switches through (with conditional statements) -->
 							<img src="images/onekey.png" class="restrict-image-size" id="one" onclick="nextImage(this)"/>
 						</div>
 						<div class="green center-content">
+							<!--When this image is clicked it will shuffle through the series of numbers that the Java function switches through (with conditional statements) -->
 							<img src="images/twokey.png" class="restrict-image-size" id="two" onclick="nextImage(this)"/>
 						</div>
 						<div class="green center-content">
+							<!--When this image is clicked it will shuffle through the series of numbers that the Java function switches through (with conditional statements) -->
 							<img src="images/threekey.png" class="restrict-image-size" id="three" onclick="nextImage(this)"/>
 						</div>
 						<div class="green center-content">
+							<!--When this image is clicked it will shuffle through the series of numbers that the Java function switches through (with conditional statements) -->
 							<img src="images/keyfour.png" class="restrict-image-size" id="four" onclick="nextImage(this)"/>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+		<!--These are audio sources I wanted to use throughout the website, I gave them each an id so that the Java function can easily call on them -->
 		<audio src="audio/sound.wav" type="audio/wav" id="mysound"></audio>
 		<audio src="audio/alarm.wav" type="audio/wav" id="mysoundd"></audio>
 		<audio src="audio/wrong.mp3" type="audio/mp3" id="mysounddd"></audio>

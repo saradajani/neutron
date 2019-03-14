@@ -13,10 +13,12 @@ body {
 p {
 	text-shadow: 2px 2px red;
 }
+/*This will make the variables opaque and red at the same time*/
 .opaque {
 	opacity: 0.25;
 	background-color: red;
 }
+/*This is what allows certain element's to be invisible/not appear until a certain function is called upon*/
 .hidethis{
 	display: none;
 	visibility: hidden;
@@ -115,14 +117,17 @@ p {
 	border-color: #8B4513;
 	*/
 }
+/*This places the timer's location on the right corner*/
 .time{
 	position: right;
 }
+/*This lays out the content in the center*/
 .center-content{
 	display:flex;
 	align-items: center;
 	justify-content: center;
 }
+/*This restricts the image size so that the image will be no larger than its natural dimensions*/
 .restrict-image-size{
 	max-height:100%;
 	max-width:100%;
@@ -131,6 +136,7 @@ p {
 	width:200px;
 	max-height:100%;
 }
+/*This allows a specific image to rotate to a certain limit both to the right and to the left, it also sets the angle at which the angle will rotate at. It will also rotate infinitely without stopping.*/
 .image {
     margin:-60px 0 0 -60px;
     -webkit-animation:spin 4s linear infinite;
